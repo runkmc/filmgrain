@@ -1,6 +1,6 @@
 <h1><%= pluralize @filmrolls.size, "Roll" %></h1>
 <ul>
-  <%= @filmrolls.each do |roll| %>
-    <li><%= roll %></li>
+  <% @filmrolls.each do |roll| %>
+    <li><%= roll.name %></li>
   <% end %>
 </ul>
