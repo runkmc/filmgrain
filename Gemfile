@@ -37,3 +37,6 @@ end
 group :test do
   gem 'capybara', '~> 2.1.0'
 end
+
+gem "factory_girl_rails", "~> 4.0"
+gem 'faker', '~> 1.3.0'
