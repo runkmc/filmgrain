@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+gem 'rails', '4.1.0'
 gem 'pg'
 
 # Use SCSS for stylesheets
@@ -31,7 +31,7 @@ group :doc do
 end
 
 group :test, :development do
-  gem 'rspec-rails', '2.14.1'
+  gem 'rspec-rails', '2.14.2'
 end
 
 group :test do
