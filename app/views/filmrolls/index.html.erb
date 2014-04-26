@@ -1,6 +1,4 @@
 <h1><%= pluralize @filmrolls.size, "Roll" %></h1>
-<ul>
   <% @filmrolls.each do |roll| %>
-    <li><%= roll.name %></li>
+    <section><%= link_to roll.name, filmroll_path(roll) %></section>
   <% end %>
-</ul>
