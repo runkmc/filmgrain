@@ -11,16 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140328001922) do
+ActiveRecord::Schema.define(version: 20140428231139) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "filmrolls", force: true do |t|
     t.string   "name"
-    t.text     "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "development_notes"
+    t.text     "shooting_notes"
   end
 
 end
