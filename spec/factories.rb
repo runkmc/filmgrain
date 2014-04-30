@@ -2,7 +2,8 @@ FactoryGirl.define do
 
   factory :filmroll do
     name { Faker::Lorem.word }
-    notes { Faker::Lorem.paragraph }
+    shooting_notes { Faker::Lorem.paragraph }
+    development_notes { Faker::Lorem.paragraph }
   end
 
 end
