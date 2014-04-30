@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddNotesToFilmroll	/Users/kevin/code/git/filmgrain/db/migrate/20140428231139_add_notes_to_filmroll.rb	/^class AddNotesToFilmroll < ActiveRecord::Migration$/;"	c
+Application	/Users/kevin/code/git/filmgrain/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Filmgrain
+ApplicationController	/Users/kevin/code/git/filmgrain/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	/Users/kevin/code/git/filmgrain/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateFilmrolls	/Users/kevin/code/git/filmgrain/db/migrate/20140328001922_create_filmrolls.rb	/^class CreateFilmrolls < ActiveRecord::Migration$/;"	c
+Filmgrain	/Users/kevin/code/git/filmgrain/config/application.rb	/^module Filmgrain$/;"	m
+Filmroll	/Users/kevin/code/git/filmgrain/app/models/filmroll.rb	/^class Filmroll < ActiveRecord::Base$/;"	c
+FilmrollsController	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^class FilmrollsController < ApplicationController$/;"	c
+RemoveNotesFromFilmroll	/Users/kevin/code/git/filmgrain/db/migrate/20140428231040_remove_notes_from_filmroll.rb	/^class RemoveNotesFromFilmroll < ActiveRecord::Migration$/;"	c
+change	/Users/kevin/code/git/filmgrain/db/migrate/20140328001922_create_filmrolls.rb	/^  def change$/;"	f	class:CreateFilmrolls
+change	/Users/kevin/code/git/filmgrain/db/migrate/20140428231040_remove_notes_from_filmroll.rb	/^  def change$/;"	f	class:RemoveNotesFromFilmroll
+change	/Users/kevin/code/git/filmgrain/db/migrate/20140428231139_add_notes_to_filmroll.rb	/^  def change$/;"	f	class:AddNotesToFilmroll
+index	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def index$/;"	f	class:FilmrollsController
+show	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def show$/;"	f	class:FilmrollsController
