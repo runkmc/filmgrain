@@ -8,4 +8,7 @@ class FilmrollsController < ApplicationController
     @filmroll = Filmroll.find(params[:id])
   end
 
+  def edit
+    @filmroll = Filmroll.find(params[:id])
+  end
 end
