@@ -9,4 +9,14 @@ describe "editing a filmroll" do
 
     expect(find_field("Name").value).to eq(roll.name)
   end
+
+  it "can update a filmroll's attributes" do
+    roll = FactoryGirl.create :filmroll
+    new_notes = "Accidentally dropped in beer. Pictures OK."
+    visit edit_filmroll_path(roll)
+    fill_in "Development notes", with: new_notes
+    click_button "Update Filmroll"
+
+    expect(page).to have_text(new_notes)
+  end
 end

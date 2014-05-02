@@ -1,4 +1,4 @@
 Filmgrain::Application.routes.draw do
 
-  resources :filmrolls, only: [:index, :show, :edit]
+  resources :filmrolls, only: [:index, :show, :edit, :update]
 end

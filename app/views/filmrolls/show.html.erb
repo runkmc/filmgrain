@@ -1,3 +1,5 @@
 <p>Name: <%= @filmroll.name %></p>
+<section><%= @filmroll.shooting_notes %></section>
+<section><%= @filmroll.development_notes %></section>
 <%= link_to "All Filmrolls", filmrolls_path %> | <%= link_to "Edit", edit_filmroll_path(@filmroll) %>
 
