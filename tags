@@ -16,5 +16,10 @@ RemoveNotesFromFilmroll	/Users/kevin/code/git/filmgrain/db/migrate/2014042823104
 change	/Users/kevin/code/git/filmgrain/db/migrate/20140328001922_create_filmrolls.rb	/^  def change$/;"	f	class:CreateFilmrolls
 change	/Users/kevin/code/git/filmgrain/db/migrate/20140428231040_remove_notes_from_filmroll.rb	/^  def change$/;"	f	class:RemoveNotesFromFilmroll
 change	/Users/kevin/code/git/filmgrain/db/migrate/20140428231139_add_notes_to_filmroll.rb	/^  def change$/;"	f	class:AddNotesToFilmroll
+create	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def create$/;"	f	class:FilmrollsController
+edit	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def edit$/;"	f	class:FilmrollsController
 index	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def index$/;"	f	class:FilmrollsController
+new	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def new$/;"	f	class:FilmrollsController
+roll_params	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def roll_params$/;"	f	class:FilmrollsController
 show	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def show$/;"	f	class:FilmrollsController
+update	/Users/kevin/code/git/filmgrain/app/controllers/filmrolls_controller.rb	/^  def update$/;"	f	class:FilmrollsController
