@@ -2,3 +2,4 @@
   <% @filmrolls.each do |roll| %>
     <section><%= link_to roll.name, filmroll_path(roll) %></section>
   <% end %>
+<%= link_to "Add New Filmroll", new_filmroll_path %>
