@@ -1,9 +1,1 @@
-<%= form_for(@filmroll) do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-  <%= f.label :shooting_notes %>
-  <%= f.text_area :shooting_notes %>
-  <%= f.label :development_notes %>
-  <%= f.text_area :development_notes %>
-  <%= f.submit %>
-<% end %>
+<%= render 'filmroll_form' %>
