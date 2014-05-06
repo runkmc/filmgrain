@@ -28,6 +28,12 @@ class FilmrollsController < ApplicationController
     redirect_to @filmroll
   end
 
+  def destroy
+    @filmroll = Filmroll.find(params[:id])
+    @filmroll.destroy
+    redirect_to filmrolls_path
+  end
+
   private
 
   def roll_params
